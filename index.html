@@ -1,13 +1,482 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <meta name="viewport" content="width=device-width,
-initial-scale=1.0"/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liene Thijs - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;700;900&family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="porto.css">
+    <script src="porto.js"></script>
+    <script src="index.js"></script>
 </head>
 <body>
-<p>Liene Thijs</p>
+<!-- Header met navigatie -->
+<header>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Liene Thijs</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active" data-page="home">Home</a></li>
+                <li><a href="#projecten" class="nav-link" data-page="projecten">Projecten</a></li>
+                <li><a href="#privacy" class="nav-link" data-page="privacy">Privacy</a></li>
+                <li><a href="#contact" class="nav-link" data-page="contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- Main Content -->
+<main>
+    <!-- HOME PAGINA -->
+    <section id="home" class="page active">
+        <!-- Hero Section -->
+        <div class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">PORTFOLIO</h1>
+                <div class="hero-image">
+                    <div class="profile-circle">
+                        <img src=".." alt="Liene Thijs"></div>
+                </div>
+                <p class="hero-subtitle">Liene Thijs</p>
+                <a href="#projecten" class="cta-button" data-page="projecten">Bekijk mijn werk</a>
+            </div>
+        </div>
+
+        <!-- Voorstelling -->
+        <div class="container">
+            <article class="intro-section">
+                <div class="section-header">
+                    <h2>Wie ben ik?</h2>
+                    <div class="decorative-line"></div>
+                </div>
+                <div class="intro-content">
+                    <div class="intro-text">
+                        <h3>Hallo, ik ben Liene Thijs!</h3>
+                        <p>Ik ben Liene Thijs student Grafische Vormgeving aan de PXL. Design is altijd al een belangrijk deel van mijn leven geweest; al op de basisschool was ik bezig met tekenen, kleuren en ontwerpen. Mijn interesse in creatieve projecten is sindsdien alleen maar gegroeid.</p>
+                        <p>Wat mij speciaal maakt, is mijn gevoel voor detail en mijn talent voor tekenen. Ik bedenk snel originele en doordachte ideeën en werk graag samen om projecten tot leven te brengen. Daarnaast vind ik het leuk om te experimenteren met nieuwe technieken en stijlen om mijn ontwerpen steeds sterker te maken.</p>
+
+                        <div class="info-cards">
+                            <div class="info-card">
+                                <h4>Locatie</h4>
+                                <p>België</p>
+                            </div>
+                            <div class="info-card">
+                                <h4>Opleiding</h4>
+                                <p>Grafische Vormgeving</p>
+                            </div>
+                            <div class="info-card">
+                                <h4>Specialiteit</h4>
+                                <p>Web Design & Development</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Waarom deze opleiding -->
+            <article class="why-section">
+                <div class="section-header">
+                    <h2>Waarom Grafische Vormgeving?</h2>
+                    <div class="decorative-line"></div>
+                </div>
+                <div class="why-content">
+                    <div class="why-card">
+                        <div class="icon-circle">🎨</div>
+                        <h3>Passie voor Creativiteit</h3>
+                        <p>Vanaf jongs af aan ben ik gefascineerd door visuele communicatie en de kracht van goed design. Deze opleiding stelt me in staat om mijn creativiteit te ontwikkelen en professioneel toe te passen.</p>
+                    </div>
+                    <div class="why-card">
+                        <div class="icon-circle">💻</div>
+                        <h3>Technologie & Design</h3>
+                        <p>De perfecte combinatie tussen technische vaardigheden en artistieke expressie spreekt mij enorm aan. Ik hou ervan om mooie designs tot leven te brengen.</p>
+                    </div>
+                    <div class="why-card">
+                        <div class="icon-circle">🚀</div>
+                        <h3>Toekomstperspectief</h3>
+                        <p>De digitale wereld groeit exponentieel en goede designers zijn meer dan ooit nodig. Ik wil deel uitmaken van deze innovatieve industrie.</p>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Waarom ben ik een goede designer/programmeur -->
+            <article class="skills-section">
+                <div class="section-header">
+                    <h2>Waarom ben ik hier goed in?</h2>
+                    <div class="decorative-line"></div>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <h3> Detail-georiënteerd</h3>
+                        <p>Ik let op de kleinste details om perfectie te bereiken in elk project.</p>
+                    </div>
+                    <div class="skill-item">
+                        <h3> Probleemoplosser</h3>
+                        <p>Uitdagingen zie ik als kansen om creatieve oplossingen te vinden.</p>
+                    </div>
+                    <div class="skill-item">
+                        <h3> Leergierig</h3>
+                        <p>Ik blijf mezelf constant ontwikkelen en nieuwe technieken leren.</p>
+                    </div>
+                    <div class="skill-item">
+                        <h3> Teamplayer</h3>
+                        <p>Samenwerken en communiceren zijn essentiële onderdelen van mijn werkwijze.</p>
+                    </div>
+                    <div class="skill-item">
+                        <h3> Efficiënt</h3>
+                        <p>Ik werk gestructureerd en haal deadlines zonder concessies aan kwaliteit.</p>
+                    </div>
+                    <div class="skill-item">
+                        <h3> Innovatief</h3>
+                        <p>Ik denk buiten de gebaande paden en kom met frisse ideeën.</p>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Speciale sectie: Hobby's & Interesses -->
+            <article class="special-section">
+                <div class="section-header">
+                    <h2>Hobby's</h2>
+                    <div class="decorative-line"></div>
+                </div>
+                <div class="hobbies-content">
+                    <p class="intro-text">Design en development zijn niet mijn enige passies. In mijn vrije tijd...</p>
+                    <div class="hobbies-grid">
+                        <div class="hobby-card">
+                            <div class="hobby-icon"></div>
+                            <h3>Piano</h3>
+                            <p>Piano spelen helpt me ontspannen en focussen.</p>
+                        </div>
+                        <div class="hobby-card">
+                            <div class="hobby-icon"></div>
+                            <h3>Muziek</h3>
+                            <p>Muziek luisteren en ontdekken inspireert mijn creatieve proces.</p>
+                        </div>
+                        <div class="hobby-card">
+                            <div class="hobby-icon"></div>
+                            <h3>Design</h3>
+                            <p>Ik ontdek graag nieuwe stijlen en visuele ideeën.</p>
+                        </div>
+                        <div class="hobby-card">
+                            <div class="hobby-icon"></div>
+                            <h3>Tekenen</h3>
+                            <p>Iets wat ik al van kleins af aan doe en nog steeds met plezier blijf ontwikkelen.</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+
+
+
+    <!-- PROJECTEN PAGINA -->
+    <section id="projecten" class="page">
+        <div class="container">
+            <div class="page-header">
+                <h1>Mijn Projecten</h1>
+                <p>Een overzicht van mijn werk, zowel school- als persoonlijke projecten</p>
+                <div class="decorative-line"></div>
+            </div>
+
+            <!-- Filter knoppen -->
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Alles</button>
+                <button class="filter-btn" data-filter="School">School projecten</button>
+                <button class="filter-btn" data-filter="Persoonlijk">Persoonlijk</button>
+            </div>
+
+            <!-- Projecten Grid -->
+            <div class="projects-grid">
+
+                <!-- Project 1 -->
+                <article class="project-card" data-category="School">
+                    <div class="project-image">
+                        <img src=".." alt="">
+                        <div class="placeholder-img"></div>
+                        <div class="project-overlay">
+                            <button class="view-details" data-project="1">Meer info</button>
+                        </div>
+
+
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">School project</span>
+                        <h3>Mond tekening</h3>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card" data-category="School">
+                    <div class="project-image">
+                        <img src=".." alt="">
+                        <div class="placeholder-img"></div>
+                        <div class="project-overlay">
+                            <button class="view-details" data-project="2">Meer info</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">School project</span>
+                        <h3>Parfum Advertentie</h3>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card" data-category="School">
+                    <div class="project-image">
+                        <img src=".." alt="">
+                        <div class="placeholder-img">Project Screenshot</div>
+                        <div class="project-overlay">
+                            <button class="view-details" data-project="3">Meer info</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">School project</span>
+                        <h3>Logo “We Are”</h3>
+                    </div>
+                </article>
+
+                <!-- Project 4 -->
+                <article class="project-card" data-category="Persoonlijk">
+                    <div class="project-image">
+                        <img src=".." alt="">
+                        <div class="placeholder-img">Project Screenshot</div>
+                        <div class="project-overlay">
+                            <button class="view-details" data-project="4">Meer info</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Persoonlijk</span>
+                        <h3>Strawberries in Water</h3>
+                    </div>
+                </article>
+
+                <!-- Project 5 -->
+                <article class="project-card" data-category="Persoonlijk">
+                    <div class="project-image">
+                        <img src=".." alt="">
+                        <div class="placeholder-img">Project Screenshot</div>
+                        <div class="project-overlay">
+                            <button class="view-details" data-project="5">Meer info</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Persoonlijk</span>
+                        <h3>Italië T‑shirt Design</h3>
+                    </div>
+                </article>
+
+                <!-- Project 6 -->
+                <article class="project-card" data-category="Persoonlijk">
+                    <div class="project-image">
+                        <img src=".." alt="">
+                        <div class="placeholder-img">Project Screenshot</div>
+                        <div class="project-overlay">
+                            <button class="view-details" data-project="6">Meer info</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Persoonlijk</span>
+                        <h3>Kinderen aan de zee</h3>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <!-- PRIVACY PAGINA -->
+    <section id="privacy" class="page">
+        <div class="container privacy-container">
+            <div class="page-header">
+                <h1>Privacy Richtlijnen</h1>
+                <div class="decorative-line"></div>
+            </div>
+
+            <article class="privacy-content">
+                <section class="privacy-section">
+                    <h2>1. Algemeen</h2>
+                    <p>Deze website is een portfolio website van Liene Thijs, gemaakt in het kader van de opleiding Grafische Vormgeving. Uw privacy is belangrijk voor mij.</p>
+                </section>
+
+                <section class="privacy-section">
+                    <h2>2. Welke gegevens verzamelen we?</h2>
+                    <p>Deze portfolio website verzamelt momenteel geen persoonlijke gegevens van bezoekers. Er worden geen cookies gebruikt voor tracking doeleinden.</p>
+                    <ul>
+                        <li>Geen persoonlijke identificeerbare informatie</li>
+                        <li>Geen tracking cookies</li>
+                        <li>Geen analytische data (tenzij via hosting provider)</li>
+                    </ul>
+                </section>
+
+                <section class="privacy-section">
+                    <h2>3. Contactformulier</h2>
+                    <p>Wanneer u het contactformulier op deze website gebruikt, worden de volgende gegevens verzameld:</p>
+                    <ul>
+                        <li>Naam</li>
+                        <li>E-mailadres</li>
+                        <li>Bericht</li>
+                    </ul>
+                    <p>Deze gegevens worden enkel gebruikt om op uw vraag te antwoorden en worden niet gedeeld met derden.</p>
+                </section>
+
+                <section class="privacy-section">
+                    <h2>4. Beveiliging</h2>
+                    <p>Ik neem de bescherming van uw gegevens serieus. Deze website maakt gebruik van moderne beveiligingsstandaarden om uw informatie te beschermen.</p>
+                </section>
+
+                <section class="privacy-section">
+                    <h2>5. Externe Links</h2>
+                    <p>Deze website kan links bevatten naar externe websites. Ik ben niet verantwoordelijk voor de privacy praktijken van deze websites.</p>
+                </section>
+
+                <section class="privacy-section">
+                    <h2>6. Auteursrecht & Afbeeldingen</h2>
+                    <p>Alle afbeeldingen op deze website zijn rechtenvrij of eigendom van Liene Thijs. Er worden geen afbeeldingen gebruikt waarvoor geen rechten zijn verkregen.</p>
+                </section>
+
+                <section class="privacy-section">
+                    <h2>7. Uw Rechten</h2>
+                    <p>U heeft het recht om:</p>
+                    <ul>
+                        <li>Inzage te vragen in uw gegevens</li>
+                        <li>Correctie van uw gegevens te vragen</li>
+                        <li>Verwijdering van uw gegevens te vragen</li>
+                    </ul>
+                </section>
+
+                <section class="privacy-section">
+                    <h2>8. Contact</h2>
+                    <p>Voor vragen over deze privacy richtlijnen kunt u contact opnemen via de <a href="#contact" data-page="contact">contactpagina</a>.</p>
+                </section>
+
+                <section class="privacy-section">
+                    <h2>9. Wijzigingen</h2>
+                    <p>Deze privacy richtlijnen kunnen van tijd tot tijd worden aangepast. De laatste versie is altijd beschikbaar op deze pagina.</p>
+                </section>
+            </article>
+        </div>
+    </section>
+
+    <!-- CONTACT PAGINA -->
+    <section id="contact" class="page">
+        <div class="container">
+            <div class="page-header">
+                <h1>Neem Contact Op</h1>
+                <p>Heb je een vraag of wil je samenwerken? Ik hoor graag van je!</p>
+                <div class="decorative-line"></div>
+            </div>
+
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h2>Contactgegevens</h2>
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div>
+                            <h3>Email</h3>
+                            <p>lienethijs@icloud.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div>
+                            <h3>Telefoon</h3>
+                            <p>+32 484 65 78 67</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <h3>Locatie</h3>
+                            <p>België</p>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <h3>Volg mij op</h3>
+                        <div class="social-icons">
+                            <a href="https://facebook.com/liene.thijs.7" class="social-icon">Facebook</a>
+                            <a href="https://instagram.com/Liene_thijs.x" class="social-icon">Instagram</a>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <h2>Stuur een bericht</h2>
+                    <div class="form-group">
+                        <label for="name">Naam *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Onderwerp</label>
+                        <input type="text" id="subject" name="subject">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Bericht *</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Verstuur Bericht</button>
+                    <div id="formMessage" class="form-message"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer>
+    <div class="footer-content">
+        <div class="footer-section">
+            <h3>Liene Thijs</h3>
+            <p>Grafische Vormgeving Student | Designer & Developer</p>
+        </div>
+        <div class="footer-section">
+            <h3>Links</h3>
+            <ul>
+                <li><a href="#home" data-page="home">Home</a></li>
+                <li><a href="#projecten" data-page="projecten">Projecten</a></li>
+                <li><a href="#privacy" data-page="privacy">Privacy</a></li>
+                <li><a href="#contact" data-page="contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Info</h3>
+            <p>© 2025 Liene Thijs</p>
+        </div>
+    </div>
+</footer>
+
+<!-- Project Modal -->
+<div id="projectModal" class="modal">
+    <div class="modal-content">
+        <span class="modal-close">&times;</span>
+        <div id="modalBody">
+            <!-- Project details worden hier geladen -->
+        </div>
+    </div>
+</div>
+
+
+
+<script src="script.js"></script>
 </body>
 </html>
