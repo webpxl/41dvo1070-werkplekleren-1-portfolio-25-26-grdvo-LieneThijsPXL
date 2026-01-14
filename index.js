@@ -267,6 +267,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
 
+
     // Animaties bij scrollen (optional enhancement)
     const observerOptions = {
         threshold: 0.1,
