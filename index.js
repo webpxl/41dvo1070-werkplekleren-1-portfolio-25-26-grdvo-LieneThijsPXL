@@ -249,6 +249,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
+
     // Smooth scroll voor interne links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function(e) {
