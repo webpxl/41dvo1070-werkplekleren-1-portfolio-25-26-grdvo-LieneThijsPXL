@@ -19,5 +19,6 @@ Hosting: GitHub Pages / Netlify
 Structuur: Header – Main – Footer met duidelijke sections & articles
 
 
+
 Gebruik van AI‑tools
 Voor ondersteuning tijdens het schrijven, en coderen structureren en verduidelijken van teksten heb ik Microsoft Copilot gebruikt.
