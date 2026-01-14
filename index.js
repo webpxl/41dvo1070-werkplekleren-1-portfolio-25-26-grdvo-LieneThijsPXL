@@ -145,7 +145,7 @@ document.addEventListener('DOMContentLoaded', function() {
             title: 'Italië T‑shirt Design',
             category: 'Persoonlijk',
             vak: 'Thuis',
-            beschrijving: 'Voor onze reis naar Italië heb ik een speciaal T‑shirt ontworpen. Ik wilde iets maken dat ons als groep van drie liet zien, daarom staan er drie glaasjes op het ontwerp samen met het Colosseum. Ik heb dit idee zelf bedacht en uitgewerkt . Daarna liet ik het drukken op T‑shirts die we tijdens de reis hebben gedragen. ',
+            beschrijving: 'Voor onze Italie reis met school heb ik een speciaal T‑shirt + hoodie ontworpen. Ik wilde iets maken dat ons als groep van drie liet zien, daarom staan er drie glaasjes op het ontwerp samen met het Colosseum, en de drie beertjes op de Vespa. Ik heb dit idee zelf bedacht en uitgewerkt . Daarna liet ik het drukken op T‑shirts en truien die we tijdens de reis hebben gedragen. ',
 
 
 
@@ -265,6 +265,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     });
+
 
     // Animaties bij scrollen (optional enhancement)
     const observerOptions = {
